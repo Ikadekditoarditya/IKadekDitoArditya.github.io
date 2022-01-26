@@ -1,0 +1,187 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  .lnr {
+    display: inline-block;
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.05em;
+    stroke-width: 1;
+  }
+  
+  .services-icon {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  bgc2, .vLine, .hLine {
+      background-color: #0F52BA;
+  }
+  
+  .quote-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .services-icon {
+      font-size: 60px;
+      margin-left: 2rem;
+  }
+.navbar-brand {
+      font-family: 'Pacifico', cursive;;
+  }
+ ul {
+    list-style: none;
+    justify-content: space-between;
+}
+
+ ul li a{
+    text-decoration: none;
+
+}
+ 
+/*//search icon*/
+
+.rating label:after{
+	content:'\f005';
+	font-family: fontAwesome;
+	position: absolute;
+	display: block;
+	font-size:15px;
+	color: #fffa00;
+  top: 0px;
+	opacity: 0;
+	transition: .5s;
+	text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+.rating{
+	position: absolute;
+	top:88%;
+	left: 44%;
+	transform: translate(-200%) rotateY(200deg);
+	display: flex;
+}
+.rating input{
+	display: none;
+}
+.rating label{
+	display: block;
+	cursor: pointer;
+	width: 15px;
+	/*background: #ccc;*/
+}
+.rating label:before{
+	content:'\f005';
+	font-family: fontAwesome;
+  top:10;
+	display: block;
+	font-size: 15px;
+	color: #101010;
+}
+.rating label:hover:after,
+.rating label:hover ~ label:after,
+.rating input:checked ~ label:after
+{
+	opacity: 1;
+}
+.form-style-3{
+	max-width: 450px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-3 label{
+	display:block;
+	margin-bottom: 10px;
+}
+.form-style-3 label > span{
+	float: left;
+	width: 100px;
+	color: #060607;
+	font-weight: bold;
+	font-size: 13px;
+	text-shadow: 1px 1px 1px rgb(104, 92, 92);
+}
+.form-style-3 fieldset{
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid #d2daff;
+	padding: 20px;
+	background: #63a2ff;
+	box-shadow: inset 0px 0px 15px #FFE5E5;
+	-moz-box-shadow: inset 0px 0px 15px #FFE5E5;
+	-webkit-box-shadow: inset 0px 0px 15px #FFE5E5;
+}
+.form-style-3 fieldset legend{
+	color: #000000;
+	border-top: 1px solid #ada1a1;
+	border-left: 1px solid #c0b9b9;
+	border-right: 1px solid #999292;
+	border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	background: #63a2ff;
+	padding: 0px 8px 3px 8px;
+	box-shadow: -0px -1px 2px #b8b7b7;
+	-moz-box-shadow:-0px -1px 2px #9b9393;
+	-webkit-box-shadow:-0px -1px 2px #a39d9d;
+	font-weight: normal;
+	font-size: 12px;
+}
+.form-style-3 textarea{
+	width: 50px;
+	height:100px;
+}
+.form-style-3 input[type=text],
+.form-style-3 input[type=date],
+.form-style-3 input[type=datetime],
+.form-style-3 input[type=number],
+.form-style-3 input[type=search],
+.form-style-3 input[type=time],
+.form-style-3 input[type=url],
+.form-style-3 input[type=email],
+.form-style-3 select, 
+.form-style-3 textarea{
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border: 1px solid #ffffff;
+	outline: none;
+	color: #000000;
+	padding: 5px 8px 5px 8px;
+	box-shadow: inset 1px 1px 4px #ffffff;
+	-moz-box-shadow: inset 1px 1px 4px #FFD5E7;
+	-webkit-box-shadow: inset 1px 1px 4px #FFD5E7;
+	background: #FFEFF6;
+	width:50%;
+
+}
+.form-style-3  input[type=submit],
+.form-style-3  input[type=button]{
+	background: #49ff95;
+	border: 1px solid #75696e;
+	padding: 5px 15px 5px 15px;
+	color: #ffffff;
+	box-shadow: inset -1px -1px 3px #918188;
+	-moz-box-shadow: inset -1px -1px 3px #7a6f74;
+	-webkit-box-shadow: inset -1px -1px 3px #867a7f;
+	border-radius: 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;	
+	font-weight: bold;
+}
+.form-style-3 .required{
+	color:rgb(160, 158, 158);
+	font-weight:normal;
+}
