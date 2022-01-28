@@ -1,0 +1,81 @@
+.carousel-item {
+    height:70vh;
+    min-height: 100px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  .lnr {
+    display: inline-block;
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.05em;
+    stroke-width: 1;
+  }
+  
+  .services-icon {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  bgc2, .vLine, .hLine {
+      background-color: #0F52BA;
+  }
+  
+  .quote-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .services-icon {
+      font-size: 60px;
+      margin-left: 2rem;
+  }
+.navbar-brand {
+      font-family: 'Pacifico', cursive;
+      background-color: linear-gradient(to right, #EAD6EE, #A0F1EA, #EAD6EE);
+
+  }
+  .nav-item {
+	font-family:font-family: 'Pacifico', cursive;
+	
+  }
+  nav {
+
+	
+	align-items: center;
+	background-image: linear-gradient(to right, #EAD6EE, #A0F1EA, #EAD6EE);
+}
+  
+  
+ ul {
+    list-style: none;
+    justify-content: space-between;
+}
+
+ ul li a{
+	 
+    text-decoration: none;
+
+}
+.previous {
+	background-color: #ff1010;
+	color: rgb(0, 0, 0);
+	border-radius: 5px;
+  }
+  
+  .next {
+	background-color: #06bb00;
+	color: white;
+	border-radius: 5px;
+  }
+  
+  .round {
+	border-radius: 50%;
+  }

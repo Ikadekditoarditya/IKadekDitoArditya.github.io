@@ -1,6 +1,6 @@
 .carousel-item {
     height: 100vh;
-    min-height: 350px;
+    min-height: 300px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -12,7 +12,7 @@
     padding-bottom: 5rem;
   }
   
-  .lnr {
+.lnr {
     display: inline-block;
     fill: currentColor;
     width: 1em;
@@ -38,14 +38,29 @@
       margin-left: 2rem;
   }
 .navbar-brand {
-      font-family: 'Pacifico', cursive;;
+      font-family: 'Pacifico', cursive;
+	background-color: linear-gradient(to right, #EAD6EE, #A0F1EA, #EAD6EE);
+
   }
+  .nav-item {
+	font-family:font-family: 'Pacifico', cursive;
+	
+  }
+  nav {
+
+	
+	align-items: center;
+	background-image: linear-gradient(to right, #EAD6EE, #A0F1EA, #EAD6EE);
+}
+  
+  
  ul {
     list-style: none;
     justify-content: space-between;
 }
 
  ul li a{
+	 
     text-decoration: none;
 
 }
@@ -66,8 +81,8 @@
 }
 .rating{
 	position: absolute;
-	top:88%;
-	left: 44%;
+	top:79%;
+	left: 45%;
 	transform: translate(-200%) rotateY(200deg);
 	display: flex;
 }
@@ -176,7 +191,6 @@
 	-moz-box-shadow: inset -1px -1px 3px #7a6f74;
 	-webkit-box-shadow: inset -1px -1px 3px #867a7f;
 	border-radius: 3px;
-	border-radius: 3px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;	
 	font-weight: bold;
@@ -185,3 +199,128 @@
 	color:rgb(160, 158, 158);
 	font-weight:normal;
 }
+.animasi{
+	transition: all 0.1s;
+	-webkit-transition: 00.1s;
+    
+}
+.tombol-aktif{
+padding: 10px 40px;
+border-radius: 10px;
+font-family:'Pacifico', cursive;
+font-size: 25px;
+color: #fff;
+text-decoration: none;
+}
+.tombol{
+	text-align: center;
+}
+.biru{
+	
+	background-color: yellowgreen;
+}
+.selengkapnya{
+text-align: center;
+list-style: none;
+padding: 5px 15px;
+border-radius: 10px;
+font-family:'Pacifico', cursive;
+font-size: 15px;
+color: rgb(255, 255, 255);
+text-decoration: none;
+	
+}
+.text-center{
+	font-weight: bold;
+  
+  }
+h2 {
+    text-shadow: 3px 2px 1px grey;
+    font-size: 40px;
+}
+
+.tombol{
+	text-align: center;
+}
+.link{
+	
+	background-color: rgb(0, 4, 255);
+}
+.facebook{
+	transition: all 0.1s;
+	-webkit-transition: 00.1s;
+text-align: center;
+list-style: none;
+padding: 5px 15px;
+border-radius: 10px;
+font-family:'Pacifico', cursive;
+font-size: 20px;
+color: rgb(255, 255, 255);
+text-decoration: none;
+}
+.warna{
+padding: 10px 40px;
+border-radius: 10px;
+font-family:'Pacifico', cursive;
+font-size: 25px;
+color: #fff;
+text-decoration: none;
+}
+.decoration{
+	
+	background-color: rgba(0, 252, 105, 0.719);
+}
+.whatsapp{
+	transition: all 0.1s;
+	-webkit-transition: 00.1s;
+text-align: center;
+list-style: none;
+padding: 5px 15px;
+border-radius: 10px;
+font-family:'Pacifico', cursive;
+font-size: 20px;
+color: rgb(255, 255, 255);
+text-decoration: none;
+}
+.control{
+	
+	background-color: rgba(241, 65, 241, 0.616);
+}
+.instagram{
+	transition: all 0.1s;
+	-webkit-transition: 00.1s;
+text-align: center;
+list-style: none;
+padding: 5px 15px;
+border-radius: 10px;
+font-family:'Pacifico', cursive;
+font-size: 20px;
+color: rgb(255, 255, 255);
+text-decoration: none;
+}
+a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 16px;
+  }
+  
+  a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
+  .previous {
+	background-color: #7c7979;
+	color: rgb(255, 255, 255);
+	border-radius: 5px;
+  }
+  
+  .next {
+	background-color: #7e7e7e;
+	color: white;
+	border-radius: 5px;
+  }
+  
+  .round {
+	border-radius: 50%;
+  }
